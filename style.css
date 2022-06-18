@@ -27,15 +27,18 @@ a {
   text-align: center;
 }
 
-.flex-wrapper {
-  margin: 0 auto;
-  width: 900px;
-  max-width: 984px;
+#root {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2rem;
-  gap: 1.5rem;
+}
+
+.flex-wrapper {
+  width: 800px;
+  max-width: 984px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .actions-container {
@@ -198,10 +201,4 @@ a {
 
 .buttons button:first-of-type {
   margin-right: 1rem;
-}
-
-@media (max-width: 1024px) {
-  .flex-wrapper {
-    margin: auto;
-  }
 }
