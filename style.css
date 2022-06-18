@@ -143,7 +143,22 @@ a {
   border: 1px solid var(--secondary-text);
 }
 
-/* .sign-up-container */
+.sign-up-container {
+  width: 20rem;
+  padding: 1.5rem 2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.sign-up-container p {
+  margin-right: 0.2rem;
+}
+
+.sign-up-container a {
+  color: var(--buttons);
+  font-weight: bold;
+}
 
 .get-app-container p {
   text-align: center;
