@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --buttons: rgb(0, 149, 246);
+  --text: rgb(38, 38, 38);
+  --secondary-text: rgb(142, 142, 142);
+  --links: rgb(0, 55, 107);
+}
+
+html, body {
+  background-color: rgb(255, 255, 255);
+}
