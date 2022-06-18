@@ -14,9 +14,6 @@
 html, body {
   background-color: rgb(250, 250, 250, 1);
   color: var(--text);
-
-  height: 100%;
-  width: 100%;
 }
 
 button {
@@ -31,12 +28,14 @@ a {
 }
 
 .flex-wrapper {
-  margin: auto;
+  margin: 0 auto;
+  width: 900px;
   max-width: 984px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 2rem 6rem 0 6rem;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 1.5rem;
 }
 
 .actions-container {
@@ -199,4 +198,10 @@ a {
 
 .buttons button:first-of-type {
   margin-right: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .flex-wrapper {
+    margin: auto;
+  }
 }
