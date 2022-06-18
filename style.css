@@ -45,7 +45,7 @@ a {
 }
 
 .login-container {
-  width: 20rem;
+  width: 21.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +145,7 @@ a {
 }
 
 .sign-up-container {
-  width: 20rem;
+  width: 21.875rem;
   padding: 1.5rem 2rem;
 
   display: flex;
