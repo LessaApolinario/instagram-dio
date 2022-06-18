@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 
+  font-family: 'Roboto', sans-serif;
+
   --buttons: rgb(0, 149, 246);
   --text: rgb(38, 38, 38);
   --secondary-text: rgb(142, 142, 142);
