@@ -8,6 +8,6 @@
 
 ![Telas de 770px](./assets/img/sc770.png)
 
-## Para telas com largura máxima de 770px
+## Para telas com largura máxima de 430px
 
 ![Telas de 430px](./assets/img/sc430.png)
