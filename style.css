@@ -11,9 +11,12 @@
   --links: rgb(0, 55, 107);
 }
 
-html, body {
+html, body, #root {
   background-color: rgb(250, 250, 250, 1);
   color: var(--text);
+  
+  height: 100%;
+  width: 100%;
 }
 
 button {
@@ -31,6 +34,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  padding-top: 2rem;
 }
 
 .flex-wrapper {
@@ -201,4 +206,40 @@ a {
 
 .buttons button:first-of-type {
   margin-right: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .flex-wrapper {
+    width: 750px;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 770px) {
+
+  .actions-container {
+    margin-top: 4.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .flex-wrapper {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .flex-wrapper .phone-image {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .actions-container, .login-container, .sign-up-container {
+    background-color: rgb(250, 250, 250, 1);
+  }
+
+  .login-container, .sign-up-container {
+    border: 0;
+    border-radius: 0;
+  }
 }
